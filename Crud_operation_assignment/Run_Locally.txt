@@ -1,0 +1,13 @@
+1. First of all git clone
+2. npm install to install all necessary dependencies
+3. open docker desktop as administrator and run docker engine
+3. docker-compose up --build than run your container from docker desktop
+4. open your postman and navigate to https://localhost:3000 to run the application
+5. for register user you can hit this POST API:- https://localhost:3000/api/users/register in body {"username": "your_username", "password": "your_password" "role": "admin or user"}
+6. for login user you can hit this POST API:- https://localhost:3000/api/users in body {"username:" "your_username" "password": "your_password"}
+7. you can get bearer token after login show you can perform CRUD operation using this token
+8. for get all taks you can hit this GET API:- https://localhost:3000/api/tasks
+9. for create new task you can hit this POST API:- https://localhost:3000/api/tasks
+10. for update task you can hit this PUT API:- https://localhost:3000/api/tasks
+11. for delete task you can hit this DELETE API:- https://localhost:3000/api/tasks
+Note:- only admin have authority to delete the task
