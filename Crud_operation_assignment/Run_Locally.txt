@@ -11,3 +11,17 @@
 10. for update task you can hit this PUT API:- https://localhost:3000/api/tasks
 11. for delete task you can hit this DELETE API:- https://localhost:3000/api/tasks
 Note:- only admin have authority to delete the task
+
+// for run locally on your localhost system
+1. First of all git clone
+2. npm install to install all necessary dependencies
+3. create database task_management
+4. npm start than run your application from your local machine
+5. for register user you can hit this POST API:- http://localhost:3000/api/users
+6. for login user you can hit this POST API:- http://localhost:3000/api/users
+7. you can get bearer token after login show you can perform CRUD operation using this token
+8. for get all taks you can hit this GET API:- http://localhost:3000/api/task
+9. for create new task you can hit this POST API:- http://localhost:3000/api/task
+10. for update task you can hit this PUT API:- http://localhost:3000/api/task/{id}
+11. for delete task you can hit this DELETE API:- http://localhost:3000/api/task/{id}
+Note:- only admin have authority to delete the task
